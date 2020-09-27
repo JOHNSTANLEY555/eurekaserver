@@ -8,8 +8,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
 @SpringBootApplication 
-//@PropertySource(value= {"classpath:application.properties"})
-//@ImportResource("applicationContext.xml")
 public class SpringBootDemoApplication {
 
 	public static void main(String[] args) {
